@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
-    <link rel="stylesheet" href="style.css"> <!-- Optional CSS -->
+    <link rel="stylesheet" href="style.css"> 
   </head>
+
+
   <body>
-    <h1>Hello, World!</h1>
-    <p>This is a paragraph of text.</p>
-    <script src="script.js"></script> <!-- Optional JS -->
+    <!--page title-->
+    <h1 id="page-title">Photo Host</h1>
+    <p id="login-instruct">Please log in to continue:</p>
+
+    <!--username text field-->
+    <form id="login-form">
+      <div class="form-field">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+      </div>
+
+    <!--password text field-->
+      <div class="form-field">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+      </div>
+      
+    <!--login button-->
+      <div class="button">
+      <button id="login-but" type="submit">Login</button>
+      </div>
+    </form>
+
+
+
+    
+    <script src="script.js"></script> 
   </body>
 </html>
