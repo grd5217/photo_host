@@ -10,6 +10,16 @@ body{
     margin-bottom: 125px;
 }
 
+#invalid-login {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
 #login-instruct {
     text-align: center;
     font-size: 30px;
